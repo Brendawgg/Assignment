@@ -1,9 +1,9 @@
-class HUD 
+class Map
 {
-  int x;
-  int y;
+  int x = 500;
+  int y = 50;
   
-  HUD (int xpos, int ypos) 
+  Map (int xpos, int ypos) 
   {
     x = xpos;
     y = ypos;
