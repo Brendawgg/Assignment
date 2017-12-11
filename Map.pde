@@ -1,6 +1,6 @@
 class Map
 {
-  int x = 500;
+  int x = 400;
   int y = 50;
   
   Map (int xpos, int ypos) 
@@ -9,5 +9,14 @@ class Map
     y = ypos;
     rect(xpos, ypos, 200, 200, 3, 6, 12, 18);
     
+  }
+  
+  void drawStars()
+  {
+     fill(0, 10);
+     rect(599, y, 200, 200);
+     fill(255);
+     noStroke();
+     ellipse(random(599, 800), random(0, 200), 2, 2);
   }
 }
