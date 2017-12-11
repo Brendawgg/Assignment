@@ -1,0 +1,8 @@
+class mode
+{
+ 
+ // class mode();
+  {
+    
+  }
+}
