@@ -16,5 +16,8 @@ class Map
      fill(255);
      noStroke();
      ellipse(random(599, 800), random(0, 200), 2, 2);
+     textSize(20);
+     fill(0);
+     text("StarMap", 660, 230);
   }
 }

@@ -3,6 +3,7 @@ void setup()
   HUD box1;
   HUD box2;
   HUD box3;
+  HUD box4;
   
   size(800, 600);
   background(100);
@@ -10,7 +11,7 @@ void setup()
   box2 = new HUD(0, 55);
   box3 = new HUD(0, 110);
   
-  radar1 = new Radar(width / 2, height / 2, 100, 0.5, color(0, 255, 0));
+  radar1 = new Radar(100, height*.8, 70, 0.1, color(0, 255, 0));
 }
 
 int x;
@@ -23,17 +24,25 @@ Radar radar1;
     
       if(mouseX < 200 && mouseX > 0 && mouseY < 55 && mouseY > 0)
       {
-         fill(0);
-         text("SPEED : 1200 ly/h ", 600, 475);
-         text("FUEL : 67 %", 600, 525);
-         text("OXYGEN : 85%", 600, 575);
+         fill(0, 255, 0);
+         text("SPEED : 1200 ly/h ", 300, 50);
+         text("FUEL : 67 %", 300, 100);
+         text("OXYGEN : 85%", 300, 150);
          
       }
       
       if(mouseX < 200 && mouseX > 0 && mouseY < 110 && mouseY > 55)
       {
-          
+          HUD box4;
+          box4 = new HUD(0, 310);
       }
+      
+      if(mouseX < 200 && mouseX > 0 && mouseY < 165 && mouseY > 110)
+      {
+          quad(0, 600, 200, 400, 600, 400, 800, 600);
+      }
+      
+      
     }
 
 void draw()
