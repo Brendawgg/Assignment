@@ -1,3 +1,7 @@
+/* Brendan O'Dowd - C16476404
+   OOP - Assignment 1
+*/
+
 void setup()
 {
   HUD box1;
