@@ -140,7 +140,7 @@ void mousePressed()
       //Answering the phone
       if(mouseX < 730 && mouseX > 510 && mouseY < 330 && mouseY > 270)
       {
-          answer = new SoundFile(this, "kirk.mp3");
+          answer = new SoundFile(this, "answer.wav");
           answer.play();
       }
        }
