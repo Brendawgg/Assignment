@@ -1,7 +1,10 @@
 /* Brendan O'Dowd - C16476404
    OOP - Assignment 1
 */
-
+         // import processing.sound.*;
+        //  SoundFile file ;
+          //file = new SoundFile(this, "ring.mp3");
+         // file.play();
 void setup()
 {
   HUD box1;
@@ -111,8 +114,12 @@ void mousePressed()
        if(mouseX < 200 && mouseX > 0 && mouseY < 165 && mouseY > 110)
       {
          makePhone();
-         pon = 1;
-         
+           
+          /*import processing.sound.*;
+          SoundFile file;
+          file = new SoundFile(this, "ring.mp3");
+          file.play();
+         */
 
        }
       
