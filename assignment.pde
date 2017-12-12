@@ -47,6 +47,13 @@ void makeRadar()
   radar1.update();
 }
 
+void makeShip()
+{
+  Ship ship;
+  ship = new Ship(750, 100);
+  ship.drawShip();
+}
+
 void draw()
 {
   fill(200);
@@ -54,6 +61,8 @@ void draw()
   drawHUD();
   
   makeMap();
+  
+  makeShip();
   
   if (rad == 1)
   {
