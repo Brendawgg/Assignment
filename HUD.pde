@@ -24,7 +24,7 @@ void drawHUD()
   
    textSize(20);
    fill(0);
-   text("STATUS", 65, 35);
-   text("MAP", 75, 90);
-   text("RADAR", 60, 140);
+   text("RADAR", 60, 35);
+   text("STATUS", 60, 90);
+   text("PHONE", 65, 140);
 }

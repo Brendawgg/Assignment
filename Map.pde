@@ -7,7 +7,7 @@ class Map
   {
     x = xpos;
     y = ypos;
-    rect(xpos, ypos, 300, 200, 18, 18, 18, 18);
+    rect(xpos, ypos, 200, 200, 18, 18, 18, 18);
     
   }
   
@@ -15,9 +15,9 @@ class Map
   {
      fill(255);
      noStroke();
-     ellipse(random(499, 800), random(0, 200), 2, 2);
+     ellipse(random(599, 800), random(0, 200), 2, 2);
      textSize(20);
-     fill(0);
+     fill(200);
      text("StarMap", 610, 230);
   }
 }
