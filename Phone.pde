@@ -1,8 +1,10 @@
+//Creating phone class
 class Phone 
 {
   int x;
   int y;
  
+ //Creating phone constructer
   Phone (int xpos, int ypos)
   {
     x = xpos;
@@ -12,6 +14,7 @@ class Phone
     
   }
   
+  //Drawing the phone
   void drawPhone()
   {
       fill(0);
@@ -32,5 +35,9 @@ class Phone
      {
        rect(i, 340, 20, 20);
      }
+     fill(255);
+    line(200, 400, 600, 400);
+    img = loadImage("hello.jpg");
+    image(img, 300, 50);
   }
 }

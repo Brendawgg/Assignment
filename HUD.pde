@@ -1,8 +1,10 @@
+//Creating HUD class
 class HUD 
 {
   int x;
   int y;
   
+  //Creating HUD constrcter
   HUD (int xpos, int ypos) 
   {
     x = xpos;
@@ -22,6 +24,7 @@ void drawHUD()
   box2 = new HUD(0, 55);
   box3 = new HUD(0, 110);
   
+   //Adding text to the buttons
    textSize(20);
    fill(0);
    text("RADAR", 60, 35);

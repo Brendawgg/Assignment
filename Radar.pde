@@ -1,3 +1,4 @@
+//Creating radar class
 public class Radar
   {
     float cx, cy;
@@ -7,6 +8,7 @@ public class Radar
     float frequency;
     color c;
     
+    //Creating the radar constructor
     Radar(float cx, float cy, float radius, float frequency, color c)
     {
       this.cx = cx;
@@ -23,6 +25,7 @@ public class Radar
       theta += speed;
     }
     
+    //Drawing the radar
     void render()
     {
       stroke(0, 255, 0);

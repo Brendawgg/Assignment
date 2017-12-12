@@ -1,3 +1,4 @@
+//Creating the Ship class
 class Ship 
 {
    int x;
@@ -5,6 +6,7 @@ class Ship
    int x2;
    int y2;
    
+   //Creating ship constructor
    Ship(int xpos, int ypos)
    {
        x = xpos;
@@ -13,6 +15,7 @@ class Ship
        y2 = 100;
    }
    
+   //Drawing the ship
    void drawShip()
    {
      

@@ -1,8 +1,10 @@
+//Creating Bars class
 class Bars
 {
   int x = 400;
   int y = 50;
   
+  //Creating Bars constructor
   Bars (int xpos, int ypos) 
   {
     x = xpos;

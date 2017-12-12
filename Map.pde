@@ -1,8 +1,10 @@
+//Creating Map class
 class Map
 {
   int x = 400;
   int y = 50;
   
+  //Creating map constructor
   Map (int xpos, int ypos) 
   {
     x = xpos;
@@ -11,6 +13,7 @@ class Map
     
   }
   
+  //Drawing the stars
   void drawStars()
   {
      fill(255);
