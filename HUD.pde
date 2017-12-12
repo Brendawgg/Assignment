@@ -7,7 +7,7 @@ class HUD
   {
     x = xpos;
     y = ypos;
-    rect(xpos, ypos, 200, 50, 3, 6, 12, 18);
+    rect(xpos, ypos, 200, 50, 12, 12, 12, 12);
     
   }
 }
