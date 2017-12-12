@@ -22,7 +22,9 @@ void drawHUD()
   box2 = new HUD(0, 55);
   box3 = new HUD(0, 110);
   
-   text("STATUS", 60, 25);
-   text("MAP", 60, 75);
-   text("RADAR", 60, 125);
+   textSize(20);
+   fill(0);
+   text("STATUS", 65, 35);
+   text("MAP", 75, 90);
+   text("RADAR", 60, 140);
 }

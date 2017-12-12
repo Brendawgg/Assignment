@@ -23,6 +23,7 @@ Radar radar1;
     
       if(mouseX < 200 && mouseX > 0 && mouseY < 55 && mouseY > 0)
       {
+         fill(0);
          text("SPEED : 1200 ly/h ", 600, 475);
          text("FUEL : 67 %", 600, 525);
          text("OXYGEN : 85%", 600, 575);

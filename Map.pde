@@ -13,8 +13,6 @@ class Map
   
   void drawStars()
   {
-     fill(0, 10);
-     rect(599, y, 200, 200);
      fill(255);
      noStroke();
      ellipse(random(599, 800), random(0, 200), 2, 2);
