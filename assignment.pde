@@ -30,8 +30,8 @@ void makePhone()
    phone.drawPhone(); 
    fill(255);
    line(200, 400, 600, 400);
-   img = loadImage("star.jpg");
-   image(img, 400, 400);
+   img = loadImage("hello.jpg");
+   image(img, 300, 50);
 }
 
 void makeMap()
