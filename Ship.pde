@@ -2,16 +2,21 @@ class Ship
 {
    int x;
    int y;
+   int x2;
+   int y2;
    
    Ship(int xpos, int ypos)
    {
        x = xpos;
        y = ypos;
+       x2 = 760;
+       y2 = 100;
    }
    
    void drawShip()
    {
      fill(0, 10, 255);
-      triangle(740, 100, 750, 80, 770, 100 ); 
+      triangle(x, y, x+10, y-50, x +30, y);
+      triangle(x2, y2, x2+10, y2-20, x2-50, y2 );
    }
 }

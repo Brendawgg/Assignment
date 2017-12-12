@@ -18,6 +18,6 @@ class Map
      ellipse(random(599, 800), random(0, 200), 2, 2);
      textSize(20);
      fill(200);
-     text("StarMap", 610, 230);
+     text("StarMap", 630, 230);
   }
 }
